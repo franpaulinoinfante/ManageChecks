@@ -3,9 +3,38 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9AD0EBD6-6A73-4BD8-B309-6D9ED70A62D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.0 Views", "1.0 Views", "{3103A615-882E-41FF-8242-0D0873720846}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.0 AppServices", "2.0 AppServices", "{5A398011-AF7C-4190-8474-0F84FC704B94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.0 Core", "3.0 Core", "{5C152C0B-774C-4ACE-BB22-0C94FD9ACCD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.0 Infrastructure", "4.0 Infrastructure", "{2B4886CE-02F5-4DF9-B53C-B0A5B0AEEA06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageChecks.Core", "ManageChecks.Core\ManageChecks.Core.csproj", "{471E4533-2506-4FB1-8B94-641A7510A95C}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{471E4533-2506-4FB1-8B94-641A7510A95C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{471E4533-2506-4FB1-8B94-641A7510A95C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{471E4533-2506-4FB1-8B94-641A7510A95C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{471E4533-2506-4FB1-8B94-641A7510A95C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3103A615-882E-41FF-8242-0D0873720846} = {9AD0EBD6-6A73-4BD8-B309-6D9ED70A62D4}
+		{5A398011-AF7C-4190-8474-0F84FC704B94} = {9AD0EBD6-6A73-4BD8-B309-6D9ED70A62D4}
+		{5C152C0B-774C-4ACE-BB22-0C94FD9ACCD8} = {9AD0EBD6-6A73-4BD8-B309-6D9ED70A62D4}
+		{2B4886CE-02F5-4DF9-B53C-B0A5B0AEEA06} = {9AD0EBD6-6A73-4BD8-B309-6D9ED70A62D4}
+		{471E4533-2506-4FB1-8B94-641A7510A95C} = {5C152C0B-774C-4ACE-BB22-0C94FD9ACCD8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6C6E99BA-4969-4B42-B800-8EAA1ABEB210}
